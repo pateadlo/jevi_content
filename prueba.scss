@@ -1,0 +1,471 @@
+$amarillo: #ffef41;
+$verde: #016752;
+$rosado1: #f672a3;
+$rosado2: #facedb;
+$font1: Abril Fatface;
+$font2: Bebas Neue;
+  
+
+
+/* BEM*/
+
+
+
+.titulo {
+  font-family: $font1;
+  text-align: center;
+  align-content: center;
+  font-size: 50px;
+}
+
+.titulo__claim {
+  font-family: $font2;
+  font-size: 25px;
+  background-color: $rosado1;
+  color: $rosado2;
+}
+
+
+/*FIN BEM*/ 
+
+
+
+
+
+
+
+body{
+    background-color: $rosado2;
+    font-family: $font2;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  
+  a:link, a:visited, a:active{
+  color: $rosado2;
+  }
+  
+  .instagram{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 0px;
+    margin-bottom: 50px;
+    color: $amarillo
+  
+  }
+  
+  
+  /* flexbox para trabajosycientes.html */
+  
+  
+  
+  .trabajos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: $rosado1;
+    padding: 30px;
+  
+  }
+  
+  .trabajos{
+  flex: auto;
+  
+  }
+  
+  /* grid para qué hacemos */
+  
+  
+  #grid {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas: 
+    "cm dgi dgd"
+    "estrategia compra fotografia"
+    "audiovisual influencers dw";
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .cm {
+    grid-area: "cm";
+  }
+  
+  .dgi {
+    grid-area: "dgi"; 
+  }
+  
+  
+  .dgd {
+    grid-area: "dgd";
+  }
+  
+  .estrategia {
+    grid-area: "estrategia";
+  }
+  
+  .compra {
+    grid-area: "dgi";
+  }
+  
+  
+  .fotografia {
+    grid-area: "fotografia";
+  }
+  
+  
+  .audiovisual {
+    grid-area: "audiovisual";
+  }
+  
+  
+  .influencers {
+    grid-area: "influencers";
+  }
+  
+  
+  .dw {
+    grid-area: "dw";
+    
+  }
+  
+  
+  /* animación para qué hacemos */
+  
+  
+  #grid {
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .cm:hover {opacity:0.3}
+  .dgi:hover {opacity:0.3}
+  .dgd:hover {opacity:0.3}
+  .estrategia:hover {opacity:0.3}
+  .compra:hover {opacity:0.3}
+  .fotografia:hover {opacity:0.3}
+  .audiovisual:hover {opacity:0.3}
+  .influencers:hover {opacity:0.3}
+  .dw:hover {opacity:0.3}
+  
+  
+  
+  .quienesSomos{
+    font-size: 35px;
+    color: $verde;
+    font-family: $font1;
+    text-align: right;
+    line-height: 50px;
+    
+  }
+  
+  .contacto 
+  {
+    font-size: 40px;
+   color: $verde;
+   font-family: $font1;
+   background-color: $amarillo;
+  }
+  
+  .despegues {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+
+  /*animaciones de trabajos y clientes*/
+
+.trabajo1 img {
+        -webkit-transition:all .9s ease; /* Safari y Chrome */
+        -moz-transition:all .9s ease; /* Firefox */
+        -o-transition:all .9s ease; /* IE 9 */
+        -ms-transition:all .9s ease; /* Opera */
+        transition: all .9 ease;
+        width:100%;
+        }
+
+        .trabajo1:hover img {
+        -webkit-transform:scale(1.25);
+        -moz-transform:scale(1.25);
+        -ms-transform:scale(1.25);
+        -o-transform:scale(1.25);
+        transform:scale(1.25);
+        }
+        .trabajo1 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+        width:300px;
+        height:300px;
+        overflow: visible;
+        }
+
+
+
+
+
+.trabajo2 img {
+          -webkit-transition:all .9s ease; /* Safari y Chrome */
+          -moz-transition:all .9s ease; /* Firefox */
+          -o-transition:all .9s ease; /* IE 9 */
+          -ms-transition:all .9s ease; /* Opera */
+          transition: all .9 ease;
+          width:100%;
+          }
+      
+          .trabajo2:hover img {
+          -webkit-transform:scale(1.25);
+          -moz-transform:scale(1.25);
+          -ms-transform:scale(1.25);
+          -o-transform:scale(1.25);
+          transform:scale(1.25);
+          }
+          .trabajo2 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+          width:300px;
+          height:300px;
+          overflow: visible;
+          }
+
+ .trabajo3 img {
+            -webkit-transition:all .9s ease; /* Safari y Chrome */
+            -moz-transition:all .9s ease; /* Firefox */
+            -o-transition:all .9s ease; /* IE 9 */
+            -ms-transition:all .9s ease; /* Opera */
+            transition: all .9 ease;
+            width:100%;
+            }
+        
+            .trabajo3:hover img {
+            -webkit-transform:scale(1.25);
+            -moz-transform:scale(1.25);
+            -ms-transform:scale(1.25);
+            -o-transform:scale(1.25);
+            transform:scale(1.25);
+            }
+            .trabajo3 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+            width:300px;
+            height:300px;
+            overflow: visible;
+            }
+
+
+
+
+
+ .trabajo4 img {
+              -webkit-transition:all .9s ease; /* Safari y Chrome */
+              -moz-transition:all .9s ease; /* Firefox */
+              -o-transition:all .9s ease; /* IE 9 */
+              -ms-transition:all .9s ease; /* Opera */
+              transition: all .9 ease;
+              width:100%;
+              }
+          
+              .trabajo4:hover img {
+              -webkit-transform:scale(1.25);
+              -moz-transform:scale(1.25);
+              -ms-transform:scale(1.25);
+              -o-transform:scale(1.25);
+              transform:scale(1.25);
+              }
+              .trabajo4 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+              width:300px;
+              height:300px;
+              overflow: visible;
+              }
+
+
+.trabajo5 img {
+                -webkit-transition:all .9s ease; /* Safari y Chrome */
+                -moz-transition:all .9s ease; /* Firefox */
+                -o-transition:all .9s ease; /* IE 9 */
+                -ms-transition:all .9s ease; /* Opera */
+                transition: all .9 ease;
+                width:100%;
+                }
+            
+                .trabajo5:hover img {
+                -webkit-transform:scale(1.25);
+                -moz-transform:scale(1.25);
+                -ms-transform:scale(1.25);
+                -o-transform:scale(1.25);
+                transform:scale(1.25);
+                }
+                .trabajo5 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+                width:300px;
+                height:300px;
+                overflow: visible;
+                }
+
+
+
+.trabajo6 img {
+                  -webkit-transition:all .9s ease; /* Safari y Chrome */
+                  -moz-transition:all .9s ease; /* Firefox */
+                  -o-transition:all .9s ease; /* IE 9 */
+                  -ms-transition:all .9s ease; /* Opera */
+                  transition: all .9 ease;
+                  width:100%;
+                  }
+              
+                  .trabajo6:hover img {
+                  -webkit-transform:scale(1.25);
+                  -moz-transform:scale(1.25);
+                  -ms-transform:scale(1.25);
+                  -o-transform:scale(1.25);
+                  transform:scale(1.25);
+                  }
+                  .trabajo6 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+                  width:300px;
+                  height:300px;
+                  overflow: visible;
+                  }
+
+
+ .trabajo7 img {
+                    -webkit-transition:all .9s ease; /* Safari y Chrome */
+                    -moz-transition:all .9s ease; /* Firefox */
+                    -o-transition:all .9s ease; /* IE 9 */
+                    -ms-transition:all .9s ease; /* Opera */
+                    transition: all .9 ease;
+                    width:100%;
+                    }
+                
+                    .trabajo7:hover img {
+                    -webkit-transform:scale(1.25);
+                    -moz-transform:scale(1.25);
+                    -ms-transform:scale(1.25);
+                    -o-transform:scale(1.25);
+                    transform:scale(1.25);
+                    }
+                    .trabajo7 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+                    width:300px;
+                    height:300px;
+                    overflow: visible;
+                    }
+
+
+
+ .trabajo8 img {
+                      -webkit-transition:all .9s ease; /* Safari y Chrome */
+                      -moz-transition:all .9s ease; /* Firefox */
+                      -o-transition:all .9s ease; /* IE 9 */
+                      -ms-transition:all .9s ease; /* Opera */
+                      transition: all .9 ease;
+                      width:100%;
+                      }
+                  
+                      .trabajo8:hover img {
+                      -webkit-transform:scale(1.25);
+                      -moz-transform:scale(1.25);
+                      -ms-transform:scale(1.25);
+                      -o-transform:scale(1.25);
+                      transform:scale(1.25);
+                      }
+                      .trabajo8 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+                      width:300px;
+                      height:300px;
+                      overflow: visible;
+                      }
+
+
+ .trabajo9 img {
+                        -webkit-transition:all .9s ease; /* Safari y Chrome */
+                        -moz-transition:all .9s ease; /* Firefox */
+                        -o-transition:all .9s ease; /* IE 9 */
+                        -ms-transition:all .9s ease; /* Opera */
+                        transition: all .9 ease;
+                        width:100%;
+                        }
+                    
+                        .trabajo9:hover img {
+                        -webkit-transform:scale(1.25);
+                        -moz-transform:scale(1.25);
+                        -ms-transform:scale(1.25);
+                        -o-transform:scale(1.25);
+                        transform:scale(1.25);
+                        }
+                        .trabajo9 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+                        width:300px;
+                        height:300px;
+                        overflow: visible;
+                        }
+
+
+.trabajo10 img {
+                          -webkit-transition:all .9s ease; /* Safari y Chrome */
+                          -moz-transition:all .9s ease; /* Firefox */
+                          -o-transition:all .9s ease; /* IE 9 */
+                          -ms-transition:all .9s ease; /* Opera */
+                          transition: all .9 ease;
+                          width:100%;
+                          }
+                      
+                          .trabajo10:hover img {
+                          -webkit-transform:scale(1.25);
+                          -moz-transform:scale(1.25);
+                          -ms-transform:scale(1.25);
+                          -o-transform:scale(1.25);
+                          transform:scale(1.25);
+                          }
+                          .trabajo10 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+                          width:300px;
+                          height:300px;
+                          overflow: visible;
+                          }
+
+
+ .trabajo11 img {
+                            -webkit-transition:all .9s ease; /* Safari y Chrome */
+                            -moz-transition:all .9s ease; /* Firefox */
+                            -o-transition:all .9s ease; /* IE 9 */
+                            -ms-transition:all .9s ease; /* Opera */
+                            transition: all .9 ease;
+                            width:100%;
+                            }
+                        
+                            .trabajo11:hover img {
+                            -webkit-transform:scale(1.25);
+                            -moz-transform:scale(1.25);
+                            -ms-transform:scale(1.25);
+                            -o-transform:scale(1.25);
+                            transform:scale(1.25);
+                            }
+                            .trabajo11 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+                            width:300px;
+                            height:300px;
+                            overflow: visible;
+                            }
+
+
+.trabajo12 img {
+                             -webkit-transition:all .9s ease; /* Safari y Chrome */
+                              -moz-transition:all .9s ease; /* Firefox */
+                              -o-transition:all .9s ease; /* IE 9 */
+                              -ms-transition:all .9s ease; /* Opera */
+                              transition: all .9 ease;
+                              width:100%;
+                              }
+                          
+                              .trabajo12:hover img {
+                              -webkit-transform:scale(1.25);
+                              -moz-transform:scale(1.25);
+                              -ms-transform:scale(1.25);
+                              -o-transform:scale(1.25);
+                              transform:scale(1.25);
+                              }
+                              .trabajo12 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+                              width:300px;
+                              height:300px;
+                              overflow: visible;
+                              }
+
+
+
+/* FIN animaciones de trabajos y clientes*/
+
+
